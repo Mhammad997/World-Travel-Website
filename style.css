@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lato', sans-serif; */
+
+}
+#navbar{
+    background-color: #f9f9f9;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: orange;
+}
+.navbar-toggler span{
+    color: orange;
+}
+.navbar-nav{
+    margin-left: 30px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    border-radius: 4px;
+    transition: 1s;
+}
+#mynavbar ul li  :hover{
+    background-color:orange;
+    color: white;
+}
+#navbar form button{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+  
+.home{
+    width: 100%;
+    height: 120vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(background\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .content {
+    text-align: center;
+    padding-top:150px;
+}
+.home .content h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 550;
+    text-shadow:0px 1px 1px black;
+    margin-top: 5px;
+}
+.home .content .para {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.home .content a{
+   padding: 10px;
+   background-color: white;
+   color: black;
+   font-weight: 550;
+   border-radius: 5px;
+   transition: 2s;
+   text-decoration: none;
+}
+.home .content .bookplace{
+    padding-bottom: 15%;
+}
+.home .content .bookplace  :hover{
+    background-color: orange;
+    color: white;
+}
+@media (max-width:850px){
+      .home{
+        background-position: 50%;
+      }
+}
+@media (max-width:450px){
+    .home .content h1{
+       font-size: 38px;
+    }
+    .home .content .para{
+        font-size: 13px;
+     }
+}
+.book{
+    background-color: #f9f9f9;
+   padding-top: 10px;
+   padding-bottom: 5%;
+}
+.main-text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+        
+}
+.main-text h1 span{
+    color: orange;
+}
+.book .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+    background-color: white;
+}
+.book .row{
+    margin-top: 30px;
+}
+.book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea{
+     border:  none;
+     border-radius: 10px;
+     box-shadow: 0px 5px 5px -6px black;
+     resize: none;
+     height: 200px;
+}
+.book form .sub{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background-color: orange;
+    transition: 2s;    
+}
+.book form .submit :hover{
+    width: 180px;
+}
+@media (max-width:765px){
+    .book{
+        padding: 0;
+    }
+    .main-text h1{
+        margin-top: 20px;
+    }
+}
+.packages {
+    padding-top: 1%;
+    gap: 4;
+}
+.packages .card img{
+    border-radius: 5px;
+    
+}
+.main-txt h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.packages .packagestext h1 span{
+     color: orange;  
+}
+
+.packages .card{
+    left: 3%;
+    /* width: 20rem; */
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0,0, 0, 1) 0px 4px 12px;
+
+}
+.packages  .card .card-body{
+    text-align: start;
+    background-color: transparent;
+}
+.packages .card-body h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+.packages .card-body p{
+    font-size: 15px;
+}
+.packages .card .card-body a {
+    background-color: orange;
+    color: #f9f9f9;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.checked{
+    color: orange;
+}
+.star i{
+    font-size: 15px;
+}
+.packages .card .card-body h6{
+    font-size: 20px;
+}
+.services {
+    background-color: #f9f9f9;
+    margin-top: 50px;
+}
+.services .card{
+    box-shadow: rgba(0,0, 0, 1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: orange;
+    margin-top: 20px;
+}
+.services .card .card-body h3{
+    font-weight: 600;
+}
+.services .card .card-body {
+    text-align: center;
+}
+
+.gallary{
+    margin-top: 50px;
+}
+.gallary .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0, 0, 1) 0px 4px 12px ;
+    cursor: pointer;
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: 1s;
+}
+.gallary .card  :hover{
+    transform: scale(1.1);
+}
+.about{
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+
+}
+.about .card{
+    border-radius: 10px;
+}
+.about .card img{
+    border-radius: 10px;
+    width: 500px;
+    height: 450px;
+}
+
+.about p{
+   padding-left: 23%;
+   text-align: start;
+   font-weight: 500;
+}
+.readbutton{
+width: 150px;
+height: 38px;
+border: none;
+border-radius: 5px;
+letter-spacing: 2px;
+text-align: center;
+font-weight: 500;
+}
+@media (max-width:765){
+    .about{
+        padding: 0;
+    }
+    .about p{
+        width: 500px;
+        height: 400px;
+
+    }
+}
+.link :hover{
+    color:black;
+}
